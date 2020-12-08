@@ -1,0 +1,47 @@
+.dialogs {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.dialogsItems {
+    padding: 1rem;
+}
+.dialogsItems .dialog a {
+    color: #472276;
+    font-weight: bold;
+    text-decoration: none;
+}
+.dialogsItems .dialog a:hover {
+    color: #1ac1e0;
+}
+.dialogsItems .active {
+    color: #1ac1e0;
+}
+.messages {
+    display: grid;
+    grid-template-rows: 1fr 80px;
+    padding: 1rem;
+}
+.messages .messagesContainer {
+    display: flex;
+    flex-direction: column;
+}
+.messages .message {
+    color: #fff;
+    max-width: 60%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: .5rem;
+}
+.messages .interlocutor {
+    align-self: flex-start;
+    background-color: #472276;
+}
+.messages .user {
+    align-self: flex-end;
+    background-color: #7552a0;
+}
+.messages .inputBlock {
+    display: grid;
+    grid-template-columns: 1fr 70px;
+}
