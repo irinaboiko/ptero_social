@@ -7,8 +7,8 @@ const Dialogs = (props) => {
 //debugger;
     let state = props.dialogsPage;
 
-    let dialogsElements = state.dialogs.map(d => <DialogItem className={classes.dialog} name={d.name} id={d.id}/>);
-    let messagesElements = state.messages.map(m => <Message message={m.message} owner={m.owner} />);
+    let dialogsElements = state.dialogs.map(d => <DialogItem className={classes.dialog} name={d.name} key={d.id} id={d.id}/>);
+    let messagesElements = state.messages.map(m => <Message message={m.message} key={m.id} owner={m.owner} />);
     let newMessageBody = state.newMessageBody;
 
     let onSendMessageClick = () => {

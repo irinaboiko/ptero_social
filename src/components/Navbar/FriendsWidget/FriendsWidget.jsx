@@ -4,7 +4,7 @@ import FriendItem from "./FriendItem/FriendItem";
 
 const FriendsWidget = (props) => {
 
-    let friendsElements = props.friends.map( f => <FriendItem name={f.name} />);
+    let friendsElements = props.friends.map( f => <FriendItem name={f.name} key={f.id} />);
 
     return (
         <div className={classes.friendBlock}>

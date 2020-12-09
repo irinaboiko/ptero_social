@@ -19,23 +19,18 @@ let initialState = {
 
 const dialogReducer = (state = initialState, action) => {
     switch (action.type) {
-        case SEND_MASSAGE: {
+        case SEND_MASSAGE:
             let body = state.newMessageBody;
-            let newMessage = {
-                id: 4,
-                message: body,
-                owner: 'user'
+            return {
+                ...state,
+                newMessageBody: '',
+                messages: [...state.messages, {id: 4, message: body, owner: 'user'}]
             };
-            let stateCopy = {...state};
-            stateCopy.messages = [...state.messages];
-            stateCopy.messages.push(newMessage);
-            stateCopy.newMessageBody = '';
-            return stateCopy;
-        }
         case UPDATE_NEW_MESSAGE_BODY: {
-            let stateCopy = {...state};
-            stateCopy.newMessageBody = action.body;
-            return stateCopy;
+            return {
+                ...state,
+                newMessageBody: action.body
+            };
         }
         default:
             return state;
