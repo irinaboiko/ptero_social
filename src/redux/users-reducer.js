@@ -4,7 +4,7 @@ const SET_USERS = 'SET-USERS';
 
 let initialState = {
     users: [
-        {
+        /*{
             id: 1,
             followed: false,
             photoUrl: 'https://img.tsn.ua/cached/1446819823/tsn-e7757395fe937525edc97f670924f9cf/thumbs/720x1260/65/9c/e4dc63465b454a8f1df7c28bfcec9c65.jpg',
@@ -36,7 +36,7 @@ let initialState = {
                 city: 'Minsk',
                 country: 'Belarus'
             }
-        }
+        }*/
     ]
 }
 
