@@ -15,9 +15,9 @@ const Users = (props) => {
     }
 
     return (
-        <div>
-            <button onClick={getUsers}>GET USERS</button>
-            <div className={styles.usersSection}>
+        <div className={styles.usersSection}>
+            <button onClick={getUsers} className={styles.getUsersButton}>GET USERS</button>
+            <div className={styles.usersWrapper}>
                 {
                     props.users.map( u => (
                         <div key={u.id} className={styles.userBlock}>
@@ -34,7 +34,7 @@ const Users = (props) => {
                             </div>
                             <div>
                                 <div>
-                                    <div>{u.name}</div>
+                                    <div className={styles.userName}>{u.name}</div>
                                     <div>{u.status}</div>
                                 </div>
                                 <div>{"u.location.city"}, {"u.location.country"}</div>

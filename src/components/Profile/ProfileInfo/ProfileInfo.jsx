@@ -6,7 +6,9 @@ const ProfileInfo = () => {
         <div>
             <div className={styles.coverWrapper}></div>
             <div className={styles.descriptionBlock}>
-                ava + description
+                <div className={styles.userPhoto}></div>
+                <div className={styles.userName}>Ruru</div>
+                <div className={styles.userBio}>I like cats and pizza (just not with pineapples)</div>
 			</div>
         </div>
     );

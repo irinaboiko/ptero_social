@@ -1,22 +1,69 @@
 .usersSection {
+    color: #472276;
     padding: 2rem;
 }
-
+.usersWrapper {
+    background-color: #ffffff;
+    border: 2px solid #e6ebf0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.getUsersButton {
+    font-size: 1rem;
+    color: #472276;
+    text-transform: uppercase;
+    display: block;
+    background-color: #ffffff;
+    outline: none;
+    border: 2px solid #472276;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 130px;
+    height: 40px;
+    transition: all .3s ease;
+    margin: 0 auto 1rem;
+}
+.getUsersButton:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #472276;
+    transition: all .3s ease;
+}
 .userBlock {
     display: grid;
     grid-template-columns: 120px 1fr;
-    border: #472276 2px solid;
-    border-radius: 25px;
+    border-bottom: 1px solid #e6ebf0;
+    box-sizing: border-box;
     padding: 1rem;
-    margin-bottom: 1rem;
 }
 .photoBlock {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.photoBlock button {
+    font-size: .7rem;
+    color: #472276;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    outline: none;
+    border: 2px solid #472276;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 95px;
+    height: 20px;
+    transition: all .3s ease;
+}
+.photoBlock button:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #472276;
+    transition: all .3s ease;
+}
 .userPhoto {
     width: 80px;
     height: 80px;
+}
+.userName {
+    font-weight: bold;
 }

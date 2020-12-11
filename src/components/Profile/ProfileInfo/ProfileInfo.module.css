@@ -3,11 +3,27 @@
     height: 220px;
     overflow: hidden;
     background: url('https://cdni.rt.com/russian/images/2017.04/article/58fe599bc3618843468b47c1.jpg') center/cover no-repeat;
-}
-.coverWrapper img {
-
+    border-bottom: 2px solid #472276;
 }
 
 .descriptionBlock {
-    padding: 1rem;
+    color: #472276;
+    position: relative;
+    padding: 6rem 1rem 1rem;
+}
+.descriptionBlock .userPhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #472276;
+    background: url('https://wuzzup.ru/wp-content/uploads/2019/05/43054392_2250627378549261_137207783997206054_n.jpg') center/cover no-repeat;
+    position: absolute;
+    top: -75px;
+}
+.descriptionBlock .userName {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.descriptionBlock .userBio {
+
 }

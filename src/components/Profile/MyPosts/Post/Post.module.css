@@ -1,9 +1,11 @@
 .item {
-    color: #000;
+    color: #472276;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 1rem;
+    border-bottom: 1px solid #e6ebf0;
+    box-sizing: border-box;
+    padding: 1rem .5rem;
 }
 
 .item img {

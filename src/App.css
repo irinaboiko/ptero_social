@@ -6,14 +6,16 @@ html, body, #root {
 	display: grid;
 	grid-template-areas: 
 	"h h"
-	"n c";
-	grid-template-rows: 60px 1fr;
-	grid-template-columns: 2.5fr 10fr;
+	"n c"
+	"f f";
+	grid-template-rows: 60px 1fr 60px;
+	grid-template-columns: 200px 10fr;
 	height: 100%;
 	margin: 0 auto;
 }
 
 .app-wrapper-content {
 	grid-area: c;
-	background-color: #f0ddffce;
+	/*background: linear-gradient(45deg, rgb(102, 148, 220), rgb(170 139 220), rgb(232, 208, 242));*/
+	background-color: #eef2f6;
 }
