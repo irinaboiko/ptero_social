@@ -30,4 +30,38 @@ const MyPosts = (props) => {
     );
 }
 
+/*class MyPosts extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.postsElements = this.props.posts.map( p => <Post message={p.message} key={p.id} likesCount={p.likesCount} />);
+
+        this.newPostElement = React.createRef();
+
+        this.onAddPost = () => {
+            this.props.addPost();
+        }
+
+        this.onPostChange = () => {
+            let textPost = this.newPostElement.current.value;
+            this.props.updateNewPostText(textPost);
+        }
+    }
+
+    render() {
+        return (
+            <div className={styles.postsBlock}>
+                <h2>My posts</h2>
+                <div className={styles.inputBlock}>
+                    <textarea onChange={this.onPostChange} ref={this.newPostElement} value={this.props.newPostText} placeholder="What's happening?"/>
+                    <button onClick={this.onAddPost} className={styles.addPostButton}>Add post</button>
+                </div>
+                <div className={styles.posts}>
+                    {this.postsElements}
+                </div>
+            </div>
+        );
+    }
+}*/
+
 export default MyPosts;
