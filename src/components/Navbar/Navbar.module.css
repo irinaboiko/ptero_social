@@ -1,8 +1,6 @@
 .nav {
 	grid-area: n;
 	background-color: #ffffff;
-	border-right: 1px solid #e6ebf0;
-	/*padding: 1rem;*/
 }
 .nav nav {
 	margin: 0 0 4rem;
@@ -10,8 +8,6 @@
 .item {
 	height: 3rem;
 	border-bottom: 1px solid #e6ebf0;
-/*	margin-bottom: .3rem;*/
-	/*padding: 1rem;*/
 }
 .item a {
     color: #472276;

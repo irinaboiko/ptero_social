@@ -8,27 +8,6 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
-.getUsersButton {
-    font-size: 1rem;
-    color: #472276;
-    text-transform: uppercase;
-    display: block;
-    background-color: #ffffff;
-    outline: none;
-    border: 2px solid #472276;
-    border-radius: 15px;
-    box-sizing: border-box;
-    width: 130px;
-    height: 40px;
-    transition: all .3s ease;
-    margin: 0 auto 1rem;
-}
-.getUsersButton:hover {
-    color: #ffffff;
-    cursor: pointer;
-    background-color: #472276;
-    transition: all .3s ease;
-}
 .userBlock {
     display: grid;
     grid-template-columns: 120px 1fr;
