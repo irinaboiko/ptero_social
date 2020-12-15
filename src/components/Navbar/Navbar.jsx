@@ -17,7 +17,7 @@ import FriendsWidgetContainer from "./FriendsWidget/FriendsWidgetContainer";
                     <NavLink to="/news" activeClassName={classes.active}>News</NavLink>
                 </div>
                 <div className={classes.item}>
-                    <NavLink to="/music" activeClassName={classes.active}>Music</NavLink>
+                    <NavLink to="/music" activeClassName={classes.active}>Greeting</NavLink>
                 </div>
                 <div className={classes.item}>
                     <NavLink to="/users" activeClassName={classes.active}>Users</NavLink>

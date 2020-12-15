@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './Music.module.css';
 
-/*const Music = (props) => {
+/*const Greeting = (props) => {
     return (
       <div>
-          Music
+          Greeting
       </div>
     );
 }*/
