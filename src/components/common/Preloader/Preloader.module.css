@@ -1,0 +1,6 @@
+/*TODO change text-align from left to center when pagination will be fix*/
+
+.preloaderWrapper {
+    text-align: left;
+    margin-top: 1rem;
+}
