@@ -46,7 +46,12 @@
 .userName {
     font-weight: bold;
 }
-
+.pageNumber {
+    padding: 0 .2rem;
+}
+.pageNumber:hover {
+    cursor: pointer;
+}
 .selectedPage {
     font-size: 22px;
     font-weight: bold;
