@@ -22,7 +22,7 @@ const ProfileInfo = (props) => {
                 <div className={styles.userName}>{props.profile.fullName}</div>
                 {/*<div className={styles.userBio}>I like cats and pizza (just not with pineapples)</div>*/}
                 <div className={styles.userBio}>{ props.profile.aboutMe ? props.profile.aboutMe : 'There should be BIO...'}</div>
-                <ProfileStatus status={"I like cats"} />
+                <ProfileStatus status={props.status ? props.status : 'There should be status'} updateStatus={props.updateStatus} />
             </div>
         </div>
     );
