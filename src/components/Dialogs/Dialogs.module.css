@@ -78,6 +78,9 @@
     border-top: 1px solid #e6ebf0;
     padding: 1rem;
 }
+.messages .inputBlock div {
+    height: 100%;
+}
 .messages .inputBlock textarea {
     resize: none;
     outline: none;
@@ -86,6 +89,8 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: .5rem;
+    width: 100%;
+    height: 100%;
 }
 .messages .inputBlock .sendButton {
     color: #472276;
